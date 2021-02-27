@@ -7,25 +7,7 @@ import java.util.Comparator;
 
 public class Algorithm {
     public static void sort(String[] array) {
-        /*
-        for (int i = 0; i < array.length; i++) {
-            Collections.sort(list, Comparator.reverseOrder());
-            String q = null;
-            int n = 0;
-            if (isNumber(array[i])) {
-                for (int j = 1; j < array.length; j++) {
-                    if (isNumber(array[j]) && Integer.parseInt(array[i]) > Integer.parseInt(array[j])) {
-                        n = Integer.parseInt(array[i]);
-                        array[i] = String.valueOf(Integer.parseInt(array[j]));
-                        array[j] = String.valueOf(n);
-                    }
 
-                }
-
-            }
-        }
-
-         */
         ArrayList<Integer> list = new ArrayList<>();
         ArrayList<String>  q = new ArrayList<>();
         for (String l : array) {
