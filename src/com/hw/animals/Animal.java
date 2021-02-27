@@ -1,4 +1,4 @@
-package com.hw;
+package com.hw.animals;
 
 import java.util.HashSet;
 import java.util.Iterator;

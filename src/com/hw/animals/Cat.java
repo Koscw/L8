@@ -1,9 +1,9 @@
-package com.hw;
+package com.hw.animals;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
     public static Set createCats(){
         HashSet<Cat> res = new HashSet<>();
         for (int i = 0; i < 4; i++) {
